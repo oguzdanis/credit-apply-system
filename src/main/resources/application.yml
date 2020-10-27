@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://kredibasvurusistemi.czzgf828gl1n.us-east-2.rds.amazonaws.com/kredibasvurusistemi
+    username: postgres
+    password:
+  jpa:
+    generate-ddl: false
+    properties:
+      hibernate:
+        default_schema: public
